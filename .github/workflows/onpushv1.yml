@@ -6,8 +6,6 @@ jobs:
     steps: 
       - name: Get Code From Repo
         uses: actions/checkout@v3
-      - name: Install NodeJS
-        uses: actions/setup-node@v3
       - name: Install Dependencies
         run: npm ci
       - name: Run Lint
