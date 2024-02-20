@@ -1,4 +1,4 @@
-name: Deploy Project-V2
+name: Deploy Project Final
 on: push
 jobs: 
   lint: 
